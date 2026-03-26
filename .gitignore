@@ -1,0 +1,37 @@
+# Generated data
+data/
+
+# Generated parser and featurizer scripts (LLM-generated, task-specific)
+03_globalrubric/auto_parsers/
+03_globalrubric/auto_parsers_plus/
+03_globalrubric/feature_extractors/
+03_globalrubric/feature_extractors_plus/
+
+# Credentials
+config/azure_config.json
+config/azure_config*.json
+!config/azure_config.json.template
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Training artifacts
+wandb/
+unsloth_compiled_cache/
+
+# NFS orphans
+.nfs*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

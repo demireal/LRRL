@@ -1,0 +1,12 @@
+# Conda environment for CLMBR-T feature generation with GPU support.
+# Create: conda env create -f environment_clmbr_gpu.yml
+# Activate: conda activate clmbr-gpu
+# Then run: bash setup_clmbr_gpu_env.sh
+
+name: clmbr-gpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
