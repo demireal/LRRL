@@ -2,6 +2,8 @@
 
 This is the repository for the paper [LLMs can construct powerful representations and streamline sample-efficient supervised learning](https://arxiv.org/abs/2603.11679).
 
+Project website: [https://lrrlpaper.github.io](https://lrrlpaper.github.io)
+
 If you find this codebase useful, please cite:
 
 ```bibtex
